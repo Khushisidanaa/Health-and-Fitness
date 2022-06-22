@@ -1,0 +1,525 @@
+
+@font-face {
+    font-family: AvertaFont;
+    src: url("../fonts/AvertaStd-Black.ttf");
+}
+
+@font-face {
+    font-family: AvertaFontReg;
+    src: url("../fonts/AvertaStd-Regular.ttf");
+}
+
+@font-face {
+    font-family: AvertaFontBold;
+    src: url("../fonts/AvertaStd-Bold.ttf");
+}
+
+@font-face {
+    font-family: AvertaFontSemiBold;
+    src: url("../fonts/AvertaStd-Semibold.ttf");
+}
+
+
+
+body{
+    
+    overflow-x: hidden;
+    background-color: #746DC0 !important;
+}
+
+
+
+.white-section{
+    width: 100%;
+    height: 300px;
+    background-color: #ffffff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9;
+
+}
+
+.image-holder1 {
+    position: absolute;
+    top: 150px;
+    right: 50px;
+z-index: 9999;
+}
+
+.white-section h1{
+    font-family: AvertaFont;
+    color: #746DC0;
+    font-size: 40px;
+    font-weight: 600;
+    position: relative;
+    top: 200px;
+    left: 160px;
+}
+.navs{
+    display: flex;
+}
+
+.logo
+{
+    position: absolute;
+    z-index: 10;
+
+}
+
+.logout{
+    font-family: AvertaFont;
+    margin-left: 1270px;
+    margin-top: 30px;
+    padding:  0px 5px;
+    border: 2px solid #746DC0;
+    border-radius: 24px;
+    font-family: 'averta_demo_peregular';
+    color: white;
+   background-color: #746DC0;
+   font-weight: 600;
+   height: 40px;
+   width: 100px;
+   z-index: 20;
+  }
+  
+  .logout a{
+      text-decoration: none;
+      color: white;
+  }
+  
+  .logout a:hover{
+      text-decoration: none;
+      color: #c9c6e2;
+  }
+
+.logo img{
+    height: 60px;
+    width: 160px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.bodilyinfo{
+    width: 100%;
+    background-color: #746DC0;
+    position: absolute;
+    top: 300px;
+    
+}
+
+.heading-left{
+    color: white;
+    font-size: 26px;
+    font-family: AvertaFontSemibold;
+font-weight: 100;
+margin-top: 20px;
+margin-left: 140px;
+}
+
+.heading-right{
+    color: white;
+    font-size: 26px;
+    font-family: AvertaFontBold;
+font-weight: 400;
+margin-top: 5px;
+margin-left: 360px;
+}
+
+.main-heading{
+    color: white;
+    font-size: 26px;
+    font-family: AvertaFont;
+    font-weight: 500;
+margin-top: 95px;
+margin-left: 340px;
+
+}
+
+.bodilyinfo ul{
+margin-top: 5px;
+}
+
+.bodilyinfo li{
+    color: white;
+    font-family: AvertaFontReg;
+    font-size: 20px;
+    margin-left: 360px;
+    margin-top: 8px;
+}
+
+.workingout img{
+    margin-left: 120px;
+    margin-top: 20px;
+}
+
+.working-out h6, .featured-articles h6{
+    background-color: #746DC0 !important;
+    font-family: AvertaFontBold;
+    color: #ffffff;
+    margin-top: 70px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 120px;
+   
+
+}
+
+.featured-articles{
+    background-color: #746DC0;
+    position: relative;
+    top: 900px;
+}
+
+.bodily{
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* features */
+
+.features-row{
+    background-color: #746DC0;
+    overflow-y:auto;
+    /* white-space: nowrap; */
+    display:flex;
+    margin-left: 120px;
+
+}
+
+.features-card{
+    background-color: white;
+    border-radius: 15px;
+    height: 160px;
+    width: 540px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-right: 50px;
+    display: flex;
+    
+}
+
+.features-img{
+  
+    margin: 10px;   
+
+}
+
+.features-text{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.features-title{
+    font-family: AvertaFont;
+    color: #1A0F91;
+    font-size: 22px;
+}
+
+.features-subtext{
+    font-family: AvertaFontReg;
+    color: #535461;
+    font-size: 18px;
+    /* word-wrap: break-word;
+    word-break: break-all; */
+    width: 250px;
+    height: auto;
+    overflow-y: none;
+   /* overflow-wrap: break-word;
+   overflow: none;
+   white-space: wrap; */
+}
+
+.foodily{
+    height: 500px;
+    background-color: #746DC0;
+    z-index: 999;
+
+}
+
+.bodily1, .foodily1{
+    height: 500px;
+    background-color: #746DC0;
+    z-index: 999;
+    display: none;
+
+
+}
+
+.foodily1> .row, .bodily1> .row , .foodily > .row {
+    display: block;
+    overflow-y: auto;
+    white-space: nowrap;
+}
+  
+ .foodily > .row > .col-md-3, .foodily1 > .row > .col-md-3 {
+    display: inline-block;
+   flex-wrap: nowrap;
+}
+
+.bodily1 > .row > .col-md-3{
+    display: inline-block;
+    flex-wrap: nowrap;
+}
+
+.foodily .row, .foodily1 .row, .bodily1 .row{
+    margin-top: 20px;
+    height: 700px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.foodily h4, .foodily1 h4 ,.bodily1 h4{
+    font-family: 'PT Serif', serif;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 150px;
+
+}
+
+.foodily span, .foodily1 span, .bodily1 span {
+    color: #FBBC04;
+}
+
+.card{
+    max-width: 100%;
+    overflow: hidden;
+}
+
+
+.recipe-spec{
+
+    /* max-width: 265px; */
+    background-color: white;
+    height: 200px;
+    width: 100%;
+    margin-left: -14px;
+    padding: 5px;
+    position: absolute;
+    bottom: 10px;
+    transform: translate(0px,115px);
+
+   
+}
+
+.recipe-spec:hover{
+transform: translate(0px,0px);
+}
+
+.card-spec span{
+    margin-top: 7px;
+    color: black;
+    font-size: 10px;
+
+}
+
+.foodily .card-title, .foodily1 .card-title, .bodily1 .card-title{
+    margin-top: 8px;
+    padding: 7px;
+    width: fit-content;
+    color: #FBBC04;
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+    font-size: 16px;
+    
+}
+
+
+
+.card-text{
+    /* inline-size: 200px; */
+
+font-size: 15px;
+    font-family: 'PT Serif', serif;
+    padding: 7px;
+    width: 90%;
+    height: auto;
+    white-space: normal;
+}
+
+.card-text i{
+    text-decoration: none;
+}
+
+
+.fa-bookmark{
+   
+    color:black;
+}
+.fa-bookmark-o{
+    color:black;
+   
+}
+
+.bookmark-open{
+    position: relative;
+    bottom: 40px;
+    left: 230px;
+    width: 20px;
+    height: 10px;
+}
+
+
+.bookmark-black{
+    position: relative;
+    bottom: 40px;
+    left: 230px;
+    width: 20px;
+    height: 10px;
+}
+
+
+
+.add
+{
+    position: relative;
+    top: 5px;
+    right: 230px;
+    background-color: #FBBC04;
+    z-index: 99999999;
+}
+
+.plus{
+   background-color: #FBBC04 ;
+   height: 40px;
+   width: 93px;
+   border-radius: 20px;
+   border: 2px solid #FBBC04;
+   position: relative;
+   left: 150px;
+   
+}
+
+.fa-plus{
+    color: white;
+}
+
+.plus:hover{
+    background-color: rgb(179, 194, 48);
+    border: 2px solid rgb(179, 194, 48);
+}
+
+
+.fa-plus:hover{
+    color: #FBBC04;
+}
+
+.extras{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+}
+
+.extras{
+  margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+   
+}
+.extras1{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+}
+
+.extras1{
+    margin-top: 60px;
+    display: none;
+    flex-direction: row;
+   
+}
+
+.saved{
+    font-family: AvertaReg;
+    color:white;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 1120px;
+
+}
+
+.saved button{
+    background-color: #746DC0;
+    border: 2px solid #746DC0;
+
+}
+
+.saved .fa-bookmark{
+    color: white;
+}
+
+.saved .fa-bookmark-o{
+    color: white;
+}
+
+#header{
+    margin-top: 100px !important;
+}
+
+
+.card iframe{
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+ .plusi{
+    background-color: #FBBC04;
+    height: 40px;
+    border-radius: 20px;
+    border: 2px solid #FBBC04;
+    position: relative;
+    left: 179px;
+    top: -333px;
+    width: 93px;
+}
+
+.checkout{
+    position: relative;
+    left: 150px;
+    top:80px;
+    font-family: AvertaFont;
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+   
+
+}
+
+.checkout h4{
+    margin-bottom: 100px !important;
+}
+.bonus{
+    font-family: AvertaFontBold;
+    color: #ffffff;
+    margin-top: 70px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 120px
+}
+
+
+.bonus1{
+    font-family: AvertaFontBold;
+    color: #ffffff;
+    margin-top: 2px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 120px;
+    margin-bottom:50px;
+}
+
+
+.fa-cutlery{
+    color: #cdcbe7;
+    
+    margin-left: 20px;
+}
+
+
+#map{
+    margin-left: 300px;
+	width: 900px;
+	max-width: 100%;
+	height: 500px;
+}

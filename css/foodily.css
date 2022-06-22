@@ -1,0 +1,659 @@
+@font-face {
+    font-family: AvertaFont;
+    src: url("../fonts/AvertaStd-Black.ttf");
+}
+
+@font-face {
+    font-family: AvertaFontReg;
+    src: url("../fonts/AvertaStd-Regular.ttf");
+}
+
+@font-face {
+    font-family: AvertaFontBold;
+    src: url("../fonts/AvertaStd-Bold.ttf");
+}
+
+@font-face {
+    font-family: AvertaFontSemiBold;
+    src: url("../fonts/AvertaStd-Semibold.ttf");
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.navs{
+    display: flex;
+}
+
+.logo
+{
+    /* position: absolute; */
+    z-index: 10;
+
+}
+
+.logo img{
+    height: 60px;
+    width: 160px;
+    margin-left: 16px;
+    margin-top: 20px;
+}
+
+
+.logout{
+    font-family: AvertaFont;
+    margin-left: 1070px;
+    margin-top: 30px;
+    padding:  0px 5px;
+    border: 2px solid #be98b4;
+    border-radius: 24px;
+    font-family: 'averta_demo_peregular';
+    color: #1A0F91;
+   background-color: #FBBC04;
+   font-weight: 600;
+   height: 40px;
+   width: 100px;
+  }
+  
+  .logout a{
+      text-decoration: none;
+      color: #1A0F91;
+  }
+  
+  
+  
+  
+.main-header{
+    font-family: AvertaFont;
+    font-size: 52px;
+    font-weight: 600;
+    color: #FBBC04;
+    margin-left: 180px;
+    margin-top: 90px;
+}
+
+.sec-one{
+    display: flex;
+}
+
+.text-one{
+    color: #1A0F91;
+    font-family: AvertaFontBold;
+    margin-left: 270px;
+    width: 400px;
+    margin-top: 15px;
+
+}
+
+.text-one h5{
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 45px;
+}
+
+.text-one span{
+    color: #FBBC04;
+    
+}
+
+.text-one ul{
+    margin-top: -30px;
+font-family: AvertaFontSemiBold;
+font-size: 18px;
+letter-spacing: 1.5px;
+}
+
+.text-one ul li{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.image-one{
+    margin-left: 270px;
+    margin-top: -128px;
+}
+
+.sec-two{
+    display: flex;
+}
+
+
+.sec-two{
+    margin-left: 180px;
+    margin-top: 100px;
+}
+
+.image-two{
+    height: 350px;
+    width: 350px;
+}
+
+.text-2{
+    margin-left: 200px;
+    margin-top: 0px;
+    width: 500px;
+}
+
+.step-one , .step-two{
+    font-family: AvertaFont;
+    font-size: 40px;
+    font-weight: 600;
+    color: #FBBC04;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.text-2 p{
+  
+    color: #1A0F91;
+    font-family: AvertaFontReg;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.text-2 span{
+    color: #FBBC04;
+}
+
+/* preferences */
+
+.header{
+    margin-top: 130px;
+    display: flex;
+    flex-direction: row;
+}
+.pref-header{
+    font-family: AvertaFont;
+    color:#FBBC04;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-left: 100px;
+    margin-bottom: 80px;
+    width: 400px;
+}
+
+.count{
+    font-family: AvertaFont;
+    color:#1A0F91;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-left: 300px;
+    margin-bottom: 80px;
+    width: 400px;
+
+}
+
+.extras{
+  
+    display: flex;
+    flex-direction: row;
+}
+
+.extras{
+  
+    display: flex;
+    flex-direction: row;
+   
+}
+.extras1{
+  
+    display: flex;
+    flex-direction: row;
+}
+
+.extras1{
+  
+    display: none;
+    flex-direction: row;
+   
+}
+
+.saved{
+    font-family: AvertaReg;
+    color:#1A0F91;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 720px;
+
+}
+
+.welcome{
+    margin-top: 60px;
+    margin-left: 80px;
+    font-family: AvertaFont;
+    font-size: 22px;
+    color: white;
+    font-weight: 600;
+}
+
+.food-health{
+    margin-left: 80px;
+    font-family: AvertaFont;
+    font-size: 36px;
+    color:#575988;
+    font-weight: 600; 
+}
+
+.info{
+    color: white;
+    font-family: AvertaReg;
+    font-size: 20px;
+    margin-top: 40px;
+    font-weight: 800;
+    margin-left: 80px;
+}
+
+.info span{
+    color:#575988;
+}
+
+
+.savebtn{
+    background-color: white;
+    border: 2px solid white;
+}
+
+.pp{
+    display: flex;
+    flex-direction: column;
+    margin-left: 130px;
+    margin-bottom: 20px;
+    font-family: AvertaReg;
+   
+    font-weight: 600;
+    font-size: 20px;
+}
+.daily{
+    color:#1A0F91;
+    
+}
+
+
+.intakel{
+    color: #FBBC04;
+}
+
+
+#CaloryNo{
+    margin-left: 20px;
+    width: 200px;
+    border: 2px solid #1A0F91;
+    border-radius: 5px;
+    position: relative;
+    top:-40px;
+    left: 220px;
+}
+
+.submit{
+    position: relative;
+    top:-40px;
+    left: 220px;
+    background-color: #1A0F91;
+    color: white;
+}
+.preferences{
+    display: flex;
+    width: 100%;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 30px;
+    margin-left: 160px;
+    margin-bottom: 100px;
+}
+
+.pref-text {
+    text-decoration: none;
+    text-align: center;
+  color: #1A0F91;
+  font-family: AvertaSemibold;
+  font-size: 19px;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.pref-text a{
+    text-decoration: none;
+    color: #1A0F91;
+ 
+
+}
+
+.pref-box{
+    margin: 0px 30px;
+}
+.pref-img img{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+   
+}
+
+.foodily{
+    height: 100vh;
+    background-color: white;
+    z-index: 999;
+
+}
+
+.foodily1{
+    height: 100vh;
+    background-color: white;
+    z-index: 999;
+    display: none;
+
+
+}
+
+.foodily1> .row, .foodily > .row {
+    display: block;
+    overflow-y: auto;
+    white-space: nowrap;
+}
+  
+.foodily > .row > .col-md-3, .foodily1 > .row > .col-md-3 {
+    display: inline-block;
+   flex-wrap: nowrap;
+}
+
+.foodily .row, .foodily1 .row{
+    margin-top: 20px;
+    height: 700px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.foodily h4, .foodily1 h4{
+    font-family: 'PT Serif', serif;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 150px;
+
+}
+
+.foodily span, .foodily1 span{
+    color: #FBBC04;
+}
+
+.card{
+    max-width: 100%;
+    overflow: hidden;
+}
+
+
+.recipe-spec{
+
+    /* max-width: 265px; */
+    background-color: white;
+    height: 200px;
+    width: 100%;
+    margin-left: -14px;
+    padding: 5px;
+    position: absolute;
+    bottom: 10px;
+    transform: translate(0px,115px);
+
+   
+}
+
+.recipe-spec:hover{
+transform: translate(0px,0px);
+}
+
+.card-spec span{
+    margin-top: 7px;
+    color: black;
+    font-size: 10px;
+
+}
+
+.foodily .card-title, .foodily1 .card-title{
+    margin-top: 8px;
+    padding: 7px;
+    width: fit-content;
+    color: #FBBC04;
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+    font-size: 16px;
+    
+}
+
+
+
+.card-text{
+    /* inline-size: 200px; */
+
+font-size: 15px;
+    font-family: 'PT Serif', serif;
+    padding: 7px;
+    width: 90%;
+    height: auto;
+    white-space: normal;
+}
+
+.card-text i{
+    text-decoration: none;
+}
+
+
+.fa-bookmark{
+   
+    color:black;
+}
+.fa-bookmark-o{
+    color:black;
+   
+}
+
+.bookmark-open{
+    position: relative;
+    bottom: 40px;
+    left: 230px;
+    width: 20px;
+    height: 10px;
+}
+
+
+.bookmark-black{
+    position: relative;
+    bottom: 40px;
+    left: 230px;
+    width: 20px;
+    height: 10px;
+}
+
+
+
+.add
+{
+    position: relative;
+    top: 5px;
+    right: 230px;
+    background-color: #FBBC04;
+    z-index: 99999999;
+}
+
+.plus{
+   background-color: #FBBC04 ;
+   height: 40px;
+   width: 40px;
+   border-radius: 50%;
+   border: 2px solid #FBBC04;
+   position: relative;
+   left: 210px;
+   
+}
+
+.fa-plus{
+    color: white;
+}
+
+.plus:hover{
+    background-color: rgb(179, 194, 48);
+    border: 2px solid rgb(179, 194, 48);
+}
+
+
+.fa-plus:hover{
+    color: #FBBC04;
+}
+
+.float{
+    /* position: absolute;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px; */
+    background-color :white;
+
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    border: 2px solid white;
+}
+.fa-calculator{
+    color: black;
+}
+.my-float{
+    margin-top:22px;
+   
+}
+
+
+
+/* calculator php */
+
+#calculator{
+    opacity: 0.9;
+    background-color: white;
+    z-index: 10010;
+    height: 90vh;
+    width: 90vw;
+    margin-left: 5vw;
+    margin-right: 100%;
+    display: none;
+    transition: 1s ease ;
+    /* position: absolute;
+    top: 0;
+    left: 0; */
+  
+
+}
+
+
+.calc{
+    position: relative;
+    left: 970px;
+    top:-370px;
+    font-family: AvertaRegular;
+    color:#1A0F91;
+    font-weight: 800;
+    font-size: 20px;
+
+}
+
+.checkout{
+    position: relative;
+    left: 150px;
+    top:-240px;
+    font-family: AvertaFont;
+    color:#1A0F91;
+    font-weight: 800;
+    font-size: 20px;
+   
+
+}
+
+.fa-bicycle{
+    color: #FBBC04;
+    
+    margin-left: 20px;
+}
+
+
+
+.calc-outer-wrap{
+    background-color: #F7C4A7;
+    height: 90vh;
+    width: 90vw;
+    border-radius: 10px;
+    padding: 40px;
+
+
+}
+
+
+.field-outer{
+    display: flex;
+    margin-top: 50px;
+}
+
+.field-outer label{
+   
+    margin-left: 80px;
+    font-family: AvertaFont;
+    font-size: 22px;
+    color: white;
+    font-weight: 600;
+}
+
+.abc input{
+    margin-left: 100px !important;
+}
+
+.field-outer input{
+  
+    margin-left: 70px; 
+    border-radius: 30px;
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.field-outer select{
+    margin-left: 70px;
+    font-family: AvertaFont;
+    font-size: 14px;
+    color: white;
+    font-weight: 600;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 7px 20px;
+}
+
+.height{
+    display: flex;
+}
+
+.height label{
+    margin-left: 10px !important;
+    color: #575988;
+}
+
+.height input{
+    height: 30px;
+}
+
+.abcd{
+    display: flex;
+}
+
+.abcd select{
+    margin-left: 10px !important;
+    color: #575988 !important;
+}
+
+.form-submit{
+    margin-left: 500px;
+    margin-top: 10px;
+    color: white;
+    background-color: #746DC0;
+    border-radius: 35px;
+    border: 2px solid #746DC0;
+    height: 50px;
+    width: 200px;
+    font-family: AvertaFont;
+    font-size: 20px;
+
+}

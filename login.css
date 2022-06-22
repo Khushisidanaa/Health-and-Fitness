@@ -1,0 +1,68 @@
+body{
+    height: 100vh;
+    background-color: #f2f6fa;
+    font-family: 'League Spartan', sans-serif;
+  }
+  
+  .container1{
+    height: 600px;
+    background-color: white;
+    width:1000px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 15px;
+  }
+
+  .container{
+      height: 100%;
+      display: flex;
+  }
+
+  .container-form{
+
+      width: 600px;
+      display: flex;
+      flex-direction: column;
+   align-items: center;
+  
+  }
+
+  .login-heading{
+      margin-top: 75px;
+      color: #061161;
+      font-size: 25px;
+  }
+
+
+
+  
+
+  .container-img{
+     width:400px;
+     height: 100%;
+  }
+
+  .container-img img{
+     max-width: 100%; 
+    height: 100%;
+  }
+
+  .logo-circle{ position: relative; 
+     overflow: hidden; 
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-radius: 50%;
+     height: 40px;
+     width: 40px;
+     border: 1px solid black; }
+     
+     .logo-circle img { width: 100%; 
+        height:30px;
+        width: 30px;
+
+
+
+
