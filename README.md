@@ -5,7 +5,7 @@ This is a one stop health and fitness application, with the aim of calculating a
 # Screenshots 
 
 Calculator: 
-![]("calc.png")
+![]("./calc.png")
 
 
 
